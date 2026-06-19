@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://www.marklee.example/ with the live domain once chosen. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.marklee.example/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/experience.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/licenses.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.marklee.example/contact.html</loc><priority>0.6</priority></url>
+</urlset>
