@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Update with the live domain once chosen.
-Sitemap: https://www.marklee.example/sitemap.xml
+Sitemap: https://markleesfo.com/sitemap.xml
