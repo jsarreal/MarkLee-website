@@ -1,6 +1,6 @@
 # MarkLee-website
 
-Personal website for **Mark T. Lee** — Chief Legal Officer / General Counsel.
+Personal website for **Mark Lee** — Chief Legal Officer / General Counsel.
 Built by Sarreal Consulting. Static, multi-page HTML/CSS — no build step.
 
 ## Pages

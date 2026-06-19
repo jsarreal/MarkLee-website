@@ -19,7 +19,7 @@ AREAS = [
     {
         "slug": "capital-markets",
         "name": "Capital Markets",
-        "title": "Capital Markets Counsel — Mark T. Lee | Credit Facilities & Securitization",
+        "title": "Capital Markets Counsel — Mark Lee | Credit Facilities & Securitization",
         "description": "Capital markets legal experience: negotiating and documenting financing, secondary-market, and credit transactions — multi-billion-dollar credit facilities, master repurchase agreements, and mortgage securitization.",
         "keywords": "capital markets attorney, credit facility counsel, master repurchase agreement, loan and security agreement, secondary market, mortgage securitization, warehouse lending, structured finance, fintech capital markets",
         "lead": "Negotiating and documenting financing, secondary-market, and credit transactions for lenders and high-growth platforms.",
@@ -34,7 +34,7 @@ AREAS = [
     {
         "slug": "consumer-lending",
         "name": "Consumer Lending",
-        "title": "Consumer Lending Counsel — Mark T. Lee | Mortgage & Fintech Compliance",
+        "title": "Consumer Lending Counsel — Mark Lee | Mortgage & Fintech Compliance",
         "description": "Consumer lending legal experience representing lenders in loan origination, servicing, and compliance — Reg Z, FCRA, TCPA, ECOA, UDAAP, HMDA, and AML/KYC across multi-state operations.",
         "keywords": "consumer lending attorney, mortgage compliance counsel, Regulation Z, FCRA, TCPA, ECOA, fair lending, UDAAP, HMDA, AML, KYC, loan origination, loan servicing, multi-state lending licensing, fintech lending",
         "lead": "Representing lenders in loan origination, servicing, and compliance across regulated, multi-state mortgage and consumer-lending businesses.",
@@ -54,7 +54,7 @@ AREAS = [
     {
         "slug": "corporate-governance",
         "name": "Corporate Governance",
-        "title": "Corporate Governance &amp; Corporate Secretary — Mark T. Lee",
+        "title": "Corporate Governance &amp; Corporate Secretary — Mark Lee",
         "description": "Corporate governance counsel: advising boards and management on governance, corporate-secretary duties, equity and ERISA plans, fundraising, and ethical best practices.",
         "keywords": "corporate governance attorney, corporate secretary, board advisory, ERISA plan administration, equity incentive plans, fundraising counsel, ethics and compliance, startup governance, board of directors counsel",
         "lead": "Advising boards and management on governance, corporate-secretary duties, and ethical best practices.",
@@ -69,7 +69,7 @@ AREAS = [
     {
         "slug": "regulatory-compliance",
         "name": "Regulatory &amp; Compliance",
-        "title": "Regulatory &amp; Compliance Counsel — Mark T. Lee | Multi-State",
+        "title": "Regulatory &amp; Compliance Counsel — Mark Lee | Multi-State",
         "description": "Regulatory and compliance counsel on federal, state, and local laws for regulated lending, real estate, and fintech businesses — including government affairs and marketing-compliance review.",
         "keywords": "regulatory compliance attorney, financial services compliance, multi-state compliance, government affairs, legislative tracking, marketing compliance review, fintech regulation, lending compliance counsel",
         "lead": "Building and running compliance programs that satisfy federal, state, and local requirements across multi-state operations.",
@@ -84,7 +84,7 @@ AREAS = [
     {
         "slug": "data-protection-privacy",
         "name": "Data Protection &amp; Privacy",
-        "title": "Data Privacy Counsel — Mark T. Lee | CCPA, CPRA &amp; Data Security",
+        "title": "Data Privacy Counsel — Mark Lee | CCPA, CPRA &amp; Data Security",
         "description": "Data protection and privacy counsel: building privacy programs, policies, and terms of use to implement CCPA, CPRA, and federal data-security requirements for e-commerce and fintech platforms.",
         "keywords": "data privacy attorney, CCPA compliance, CPRA, privacy policy, terms of use, data security, e-commerce privacy, consumer data protection, fintech privacy counsel",
         "lead": "Developing privacy programs, policies, and terms of use that implement state and federal data-protection requirements.",
@@ -99,7 +99,7 @@ AREAS = [
     {
         "slug": "employment-hr",
         "name": "Employment &amp; HR",
-        "title": "Employment &amp; HR Counsel — Mark T. Lee | Employment Law Compliance",
+        "title": "Employment &amp; HR Counsel — Mark Lee | Employment Law Compliance",
         "description": "Employment and HR legal experience: drafting compensation plans, offer and separation agreements, advising on employment-law compliance, and overseeing HR investigations.",
         "keywords": "employment law attorney, HR counsel, compensation plans, offer letters, separation agreements, employment compliance, workplace investigations, in-house employment counsel",
         "lead": "Advising on employment-law compliance and drafting the HR documents that growing companies depend on.",
@@ -113,7 +113,7 @@ AREAS = [
     {
         "slug": "insurance",
         "name": "Insurance",
-        "title": "Insurance Counsel — Mark T. Lee | Coverage &amp; Claims",
+        "title": "Insurance Counsel — Mark Lee | Coverage &amp; Claims",
         "description": "Insurance experience evaluating and binding traditional coverages and administering claims; licensed California insurance professional.",
         "keywords": "insurance counsel, coverage evaluation, claims administration, California insurance license, corporate insurance attorney, risk management",
         "lead": "Evaluating and binding traditional coverages and administering claims.",
@@ -124,7 +124,7 @@ AREAS = [
     {
         "slug": "intellectual-property",
         "name": "Intellectual Property",
-        "title": "Intellectual Property Counsel — Mark T. Lee | Trademarks, Patents &amp; Copyright",
+        "title": "Intellectual Property Counsel — Mark Lee | Trademarks, Patents &amp; Copyright",
         "description": "Intellectual property experience prosecuting and administering patents, trademarks, and copyrights, including software copyright and trademark portfolio management.",
         "keywords": "intellectual property attorney, trademark prosecution, patent prosecution, copyright, software copyright, IP portfolio management, technology IP counsel",
         "lead": "Prosecuting and administering patents, trademarks, and copyrights — including software copyright and trademark portfolios.",
@@ -138,7 +138,7 @@ AREAS = [
     {
         "slug": "investment-funds",
         "name": "Investment Fund Formation",
-        "title": "Investment Fund Formation &amp; Compliance — Mark T. Lee | ERA &amp; RIA",
+        "title": "Investment Fund Formation &amp; Compliance — Mark Lee | ERA &amp; RIA",
         "description": "Investment fund formation and compliance counsel for ERA and RIA entities, including structuring alternative asset funds with over $1 billion in assets.",
         "keywords": "investment fund formation attorney, ERA counsel, RIA compliance, alternative asset funds, fund structuring, private funds, life settlements, premium finance, investment adviser compliance",
         "lead": "Counseling exempt reporting advisers (ERA) and registered investment advisers (RIA), and structuring alternative asset funds.",
@@ -153,7 +153,7 @@ AREAS = [
     {
         "slug": "mergers-acquisitions",
         "name": "Mergers &amp; Acquisitions",
-        "title": "Mergers &amp; Acquisitions Counsel — Mark T. Lee | Public &amp; Private M&amp;A",
+        "title": "Mergers &amp; Acquisitions Counsel — Mark Lee | Public &amp; Private M&amp;A",
         "description": "Mergers and acquisitions experience representing public and private companies, including a ~$340 million public-REIT acquisition in a cash-and-stock transaction.",
         "keywords": "mergers and acquisitions attorney, M&A counsel, public company acquisition, private company M&A, REIT acquisition, cash and stock transaction, deal counsel, corporate transactions",
         "lead": "Representing public and private companies in mergers and acquisitions, from diligence through close.",
@@ -167,7 +167,7 @@ AREAS = [
     {
         "slug": "sec-reporting",
         "name": "SEC Reporting",
-        "title": "SEC Reporting &amp; Securities Counsel — Mark T. Lee | '33 &amp; '34 Act",
+        "title": "SEC Reporting &amp; Securities Counsel — Mark Lee | '33 &amp; '34 Act",
         "description": "SEC reporting and securities-law experience: preparing and filing registration statements under the Securities Act of 1933 and periodic reports under the Securities Exchange Act of 1934.",
         "keywords": "SEC reporting attorney, securities counsel, registration statements, Securities Act of 1933, Securities Exchange Act of 1934, periodic reports, public company reporting, securities compliance, Regulation D offerings",
         "lead": "Preparing registration statements and periodic reports and monitoring securities-law compliance.",
@@ -201,7 +201,7 @@ def site_header():
     )
     return f"""  <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="../index.html">Mark T. Lee<span>.</span></a>
+      <a class="brand" href="../index.html">Mark Lee<span>.</span></a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
       <ul class="nav-links">
 {links}
@@ -227,7 +227,7 @@ def side_menu(active_slug):
 
 SITE_FOOTER = """  <footer class="site-footer">
     <div class="container">
-      <div>&copy; <span id="year"></span> Mark T. Lee &middot; Chief Legal Officer &amp; General Counsel</div>
+      <div>&copy; <span id="year"></span> Mark Lee &middot; Chief Legal Officer &amp; General Counsel</div>
       <div>
         <a href="mailto:markleesfo@gmail.com">markleesfo@gmail.com</a> &middot;
         <a href="https://www.linkedin.com/in/markleeSFO">LinkedIn</a>
@@ -303,8 +303,8 @@ def main():
     # Overview
     with open(os.path.join(OUT, "index.html"), "w") as f:
         f.write(page(
-            "Practice Areas — Mark T. Lee | General Counsel &amp; Compliance",
-            "Mark T. Lee's practice areas: capital markets, consumer lending, corporate governance, "
+            "Practice Areas — Mark Lee | General Counsel &amp; Compliance",
+            "Mark Lee's practice areas: capital markets, consumer lending, corporate governance, "
             "regulatory and compliance, data privacy, employment, insurance, intellectual property, "
             "investment fund formation, mergers and acquisitions, and SEC reporting.",
             "general counsel practice areas, capital markets, consumer lending, corporate governance, "
