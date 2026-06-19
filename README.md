@@ -34,6 +34,14 @@ the domain is finalized.
 ## Local preview
 Open `index.html` in a browser, or: `python3 -m http.server 8000` then visit http://localhost:8000.
 
+## Deployment
+Hosted on **GitHub Pages** from the `main` branch (root). Any push to `main` auto-deploys.
+Live: https://jsarreal.github.io/MarkLee-website/
+
+To attach a custom domain later: add a `CNAME` file (containing the domain) at the repo root, set the
+custom domain in repo **Settings → Pages**, point DNS at GitHub Pages, then update the canonical/OG tags,
+`robots.txt`, and `sitemap.xml` from the `www.marklee.example` placeholder to the real domain.
+
 ## To do before launch
 - [ ] Choose domain; update canonical URL, Open Graph, `robots.txt`, `sitemap.xml` (incl. practice-area URLs).
 - [ ] Expand practice-area content as desired (edit `scripts/generate_practice_areas.py`, re-run).
