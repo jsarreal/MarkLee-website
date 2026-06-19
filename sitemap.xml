@@ -2,8 +2,19 @@
 <!-- Replace https://www.marklee.example/ with the live domain once chosen. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.marklee.example/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.marklee.example/practice-areas.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.marklee.example/experience.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/</loc><priority>0.9</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/capital-markets.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/consumer-lending.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/corporate-governance.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/regulatory-compliance.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/data-protection-privacy.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/employment-hr.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/insurance.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/intellectual-property.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/investment-funds.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/mergers-acquisitions.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/practice-areas/sec-reporting.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.marklee.example/experience.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.marklee.example/licenses.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.marklee.example/contact.html</loc><priority>0.6</priority></url>
 </urlset>

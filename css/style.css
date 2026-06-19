@@ -139,6 +139,37 @@ section { padding: 64px 0; }
 .timeline .dates { color: var(--muted); font-size: 0.9rem; }
 .timeline p { margin: 6px 0 0; font-size: 0.96rem; color: var(--muted); }
 
+/* ---------- Practice-area layout: left menu + content ---------- */
+.pa-layout {
+  display: grid; grid-template-columns: 260px 1fr; gap: 40px; align-items: start;
+  padding: 40px 0 64px;
+}
+.pa-nav {
+  position: sticky; top: 96px; border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px; background: #fff;
+}
+.pa-nav h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--gold-600); margin: 4px 8px 12px; }
+.pa-nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.pa-nav a {
+  display: block; padding: 9px 10px; border-radius: 8px; font-size: 0.95rem;
+  color: var(--ink); font-weight: 500; transition: all 0.2s ease;
+}
+.pa-nav a:hover { background: var(--bg-soft); color: var(--navy); }
+.pa-nav a.active { background: var(--navy); color: #fff; }
+.pa-content > h1 { margin-top: 0; }
+.pa-content .lead { margin-bottom: 28px; }
+.pa-content h2 { margin-top: 36px; }
+.pa-content ul:not(.skill-list):not(.nav-links) { padding-left: 20px; }
+.pa-content li { margin-bottom: 8px; }
+.pa-cta { margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
+
+@media (max-width: 820px) {
+  .pa-layout { grid-template-columns: 1fr; gap: 24px; }
+  .pa-nav { position: static; }
+  .pa-nav ul { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+}
+
 /* license groups */
 .license-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
 .license-grid ul { padding-left: 18px; margin: 8px 0 0; }
