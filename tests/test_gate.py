@@ -23,3 +23,13 @@ def test_check_html_refs_ok_when_present(tmp_path):
     _write(os.path.join(root, "index.html"), '<link href="css/style.css">')
     _write(os.path.join(root, "css/style.css"), "body{}")
     assert gate.check_html_refs(root=root) == []
+
+
+def test_check_provenance_ok_with_issue_and_session():
+    msg = "feat: tweak headline\n\nIssue: #14\nSession: abc123"
+    assert gate.check_provenance(msg) == []
+
+
+def test_check_provenance_flags_both_when_missing():
+    problems = gate.check_provenance("feat: tweak headline")
+    assert len(problems) == 2
