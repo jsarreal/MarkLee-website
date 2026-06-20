@@ -48,3 +48,37 @@ def write_dome(graph, path=DOME_PATH):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(graph, f, indent=2, sort_keys=True)
         f.write("\n")
+
+
+def query_ap(name, aps_path=APS_PATH, dome_path=DOME_PATH, root=ROOT):
+    with open(aps_path, encoding="utf-8") as f:
+        aps = json.load(f)
+    if name not in aps:
+        raise KeyError(name)
+    with open(dome_path, encoding="utf-8") as f:
+        graph = json.load(f)
+    files = set()
+    for pattern in aps[name]:
+        for hit in glob.glob(os.path.join(root, pattern), recursive=True):
+            files.add(os.path.relpath(hit, root))
+    for f_ in list(files):
+        for ref in graph.get(f_, []):
+            files.add(ref)
+    return sorted(files)
+
+
+def _main(argv):
+    if argv[:1] == ["build"]:
+        write_dome(build())
+        print(f"wrote {os.path.relpath(DOME_PATH, ROOT)}")
+        return 0
+    if argv[:2] == ["query", "ap"] and len(argv) >= 3:
+        for f in query_ap(argv[2]):
+            print(f)
+        return 0
+    print("usage: dome.py build | query ap <name>", file=sys.stderr)
+    return 2
+
+
+if __name__ == "__main__":
+    sys.exit(_main(sys.argv[1:]))

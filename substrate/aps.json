@@ -1,0 +1,8 @@
+{
+  "home": ["index.html"],
+  "practice-areas": ["practice-areas/*.html", "scripts/generate_practice_areas.py"],
+  "licenses": ["licenses.html"],
+  "experience": ["experience.html"],
+  "contact": ["contact.html"],
+  "global": ["css/style.css", "js/main.js"]
+}

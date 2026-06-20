@@ -33,3 +33,28 @@ def test_build_strips_query_and_fragment(tmp_path):
     _write(os.path.join(root, "p.html"), '<a href="contact.html?ref=1#form">c</a>')
     graph = dome.build(root=root)
     assert graph["p.html"] == ["contact.html"]
+
+
+def test_query_ap_returns_files_plus_one_hop(tmp_path):
+    root = str(tmp_path)
+    _write(os.path.join(root, "index.html"), '<link href="css/style.css">')
+    _write(os.path.join(root, "css/style.css"), "body{}")
+    dome.write_dome(dome.build(root=root), path=os.path.join(root, "substrate/dome.json"))
+    _write(os.path.join(root, "substrate/aps.json"), json.dumps({"home": ["index.html"]}))
+    res = dome.query_ap("home",
+                        aps_path=os.path.join(root, "substrate/aps.json"),
+                        dome_path=os.path.join(root, "substrate/dome.json"),
+                        root=root)
+    assert res == ["css/style.css", "index.html"]
+
+
+def test_query_ap_unknown_raises(tmp_path):
+    root = str(tmp_path)
+    _write(os.path.join(root, "substrate/dome.json"), "{}")
+    _write(os.path.join(root, "substrate/aps.json"), json.dumps({"home": ["index.html"]}))
+    import pytest
+    with pytest.raises(KeyError):
+        dome.query_ap("nope",
+                      aps_path=os.path.join(root, "substrate/aps.json"),
+                      dome_path=os.path.join(root, "substrate/dome.json"),
+                      root=root)
