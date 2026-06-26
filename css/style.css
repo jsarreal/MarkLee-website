@@ -1,13 +1,13 @@
 /* Mark T. Lee — personal website
    Sarreal Consulting build. Aesthetic: senior legal executive — deep navy authority,
-   muted gold accent, geometric sans-serif, generous whitespace, mobile-first. */
+   light blue accent, geometric sans-serif, generous whitespace, mobile-first. */
 
 :root {
   --navy: #0f2747;
   --navy-700: #16355f;
   --navy-50: #eef2f8;
-  --gold: #b08d4f;
-  --gold-600: #97763c;
+  --accent: #5b9bd5;
+  --accent-600: #3a7ab5;
   --ink: #1c2330;
   --muted: #5a6473;
   --line: #e2e6ec;
@@ -43,7 +43,7 @@ h2 { font-size: clamp(1.4rem, 2.5vw, 1.9rem); margin-top: 0; }
 h3 { font-size: 1.15rem; }
 
 a { color: var(--navy-700); text-decoration: none; transition: color 0.3s ease; }
-a:hover { color: var(--gold-600); }
+a:hover { color: var(--accent-600); }
 
 p { color: var(--ink); }
 .muted { color: var(--muted); }
@@ -62,10 +62,10 @@ p { color: var(--ink); }
   padding: 16px 24px; max-width: var(--maxw); margin: 0 auto;
 }
 .brand { font-size: 1.25rem; font-weight: 700; color: var(--navy); }
-.brand span { color: var(--gold); }
+.brand span { color: var(--accent); }
 .nav-links { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
 .nav-links a { font-weight: 500; font-size: 0.97rem; color: var(--ink); }
-.nav-links a.active { color: var(--gold-600); }
+.nav-links a.active { color: var(--accent-600); }
 .nav-toggle { display: none; }
 
 /* ---------- Buttons ---------- */
@@ -73,8 +73,8 @@ p { color: var(--ink); }
   display: inline-block; padding: 12px 24px; border-radius: var(--radius);
   font-weight: 600; font-size: 0.97rem; transition: all 0.3s ease; cursor: pointer;
 }
-.btn-primary { background: var(--gold); color: #fff; box-shadow: var(--shadow); }
-.btn-primary:hover { background: var(--gold-600); color: #fff; transform: translateY(-1px); }
+.btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+.btn-primary:hover { background: var(--accent-600); color: #fff; transform: translateY(-1px); }
 .btn-ghost { border: 1px solid var(--navy); color: var(--navy); }
 .btn-ghost:hover { background: var(--navy); color: #fff; }
 
@@ -83,7 +83,7 @@ section { padding: 64px 0; }
 .section-soft { background: var(--bg-soft); }
 .eyebrow {
   text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.78rem;
-  font-weight: 600; color: var(--gold-600); margin-bottom: 10px;
+  font-weight: 600; color: var(--accent-600); margin-bottom: 10px;
 }
 
 /* ---------- Home two-column layout (per Mark) ---------- */
@@ -121,7 +121,7 @@ section { padding: 64px 0; }
 .skill-list li { padding-left: 22px; position: relative; }
 .skill-list li::before {
   content: ""; position: absolute; left: 0; top: 0.7em; width: 8px; height: 8px;
-  background: var(--gold); border-radius: 2px;
+  background: var(--accent); border-radius: 2px;
 }
 .skill-list strong { color: var(--navy); }
 
@@ -132,7 +132,7 @@ section { padding: 64px 0; }
 }
 .timeline li::before {
   content: ""; position: absolute; left: -7px; top: 4px; width: 12px; height: 12px;
-  background: var(--gold); border-radius: 50%; border: 2px solid #fff;
+  background: var(--accent); border-radius: 50%; border: 2px solid #fff;
 }
 .timeline .role { font-weight: 600; color: var(--navy); }
 .timeline .org { font-weight: 600; }
@@ -149,7 +149,7 @@ section { padding: 64px 0; }
   padding: 16px; background: #fff;
 }
 .pa-nav h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em;
-  color: var(--gold-600); margin: 4px 8px 12px; }
+  color: var(--accent-600); margin: 4px 8px 12px; }
 .pa-nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
 .pa-nav a {
   display: block; padding: 9px 10px; border-radius: 8px; font-size: 0.95rem;
